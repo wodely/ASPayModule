@@ -1,0 +1,27 @@
+PODS:
+  - AlipaySDK-iOS (15.6.8)
+  - ASPayModule (0.1.0):
+    - AlipaySDK-iOS (~> 15.6.8)
+    - WechatOpenSDK (= 1.8.5)
+  - WechatOpenSDK (1.8.5)
+
+DEPENDENCIES:
+  - ASPayModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  ASPayModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 703a55774a37f412410ab04af96c011b91ec58cb
+  ASPayModule: abacc06178a28d7fd08bc5a79b08032c4079f642
+  WechatOpenSDK: 9b15110aba1d502456d8e83677357e6437f2e751
+
+PODFILE CHECKSUM: 118bd2e026e4012801c6bf6cf29432f2a7f7107d
+
+COCOAPODS: 1.10.1

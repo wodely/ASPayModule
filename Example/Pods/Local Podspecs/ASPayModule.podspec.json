@@ -1,0 +1,31 @@
+{
+  "name": "ASPayModule",
+  "version": "0.1.0",
+  "summary": "微信支付宝集成工具",
+  "description": "'微信支付宝集成工具,暂不支持其他支付'",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liukecyl@163.com": "liukecyl@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wodely/ASPayModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": "ASPayModule/Classes/**/*",
+  "dependencies": {
+    "AlipaySDK-iOS": [
+      "~> 15.6.8"
+    ],
+    "WechatOpenSDK": [
+      "= 1.8.5"
+    ]
+  }
+}

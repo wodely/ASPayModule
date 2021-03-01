@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ASPayModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASPayModule.'
+  s.summary          = ' 微信支付宝集成工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    '微信支付宝集成工具,暂不支持其他支付'
                        DESC
 
-  s.homepage         = 'https://github.com/liukecyl@163.com/ASPayModule'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liukecyl@163.com' => 'liukecyl@163.com' }
-  s.source           = { :git => 'https://github.com/liukecyl@163.com/ASPayModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wodely/ASPayModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.static_framework = true
   s.source_files = 'ASPayModule/Classes/**/*'
   
   # s.resource_bundles = {
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'AlipaySDK-iOS', '~> 15.6.8'
+    s.dependency 'WechatOpenSDK', '= 1.8.5'
 end

@@ -1,0 +1,6 @@
+framework module ASPayModule {
+  umbrella header "ASPayModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
