@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ASPayModule_Example' do
+  pod 'ASPayModule', :path => '../'
+
+  target 'ASPayModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
